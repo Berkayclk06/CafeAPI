@@ -51,6 +51,11 @@ def get_random_cafe():
     #     "coffee_price": random_cafe.coffee_price,
     # })
     return jsonify(cafe=random_cafe.to_dict())
+
+
+@app.route("/all")
+def all():
+    pass
 ## HTTP GET - Read Record
 
 ## HTTP POST - Create Record
