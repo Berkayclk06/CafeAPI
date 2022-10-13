@@ -104,14 +104,5 @@ def delete_cafe(cafe_id):
         return jsonify(error={"Sorry, that's not allowed. Make sure you have the correct api key!"}), 403
 
 
-## HTTP GET - Read Record
-
-## HTTP POST - Create Record
-
-## HTTP PUT/PATCH - Update Record
-
-## HTTP DELETE - Delete Record
-
-
 if __name__ == '__main__':
     app.run(debug=True)
